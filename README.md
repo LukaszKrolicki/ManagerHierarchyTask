@@ -1,8 +1,4 @@
----
-icon: file-xml
----
-
-# CXML to JSON maintaining the manager hierarchy
+# XML to JSON maintaining the manager hierarchy
 
 This project is a Spring Boot app that takes an XML file of employees and their managers and turns it into a chierarchical chart in JSON format. It takes a flat XML structure, where each employee entry has an email and optionally a manager's email, and transforms it into a JSON file representing the organization’s structure, showing each employee and their direct reports.\
 \
